@@ -31,6 +31,7 @@ import {
   PocketShareButton,
   InstapaperShareButton,
   HatenaShareButton,
+  CopyShareButton,
   FacebookIcon,
   TwitterIcon,
   LinkedinIcon,
@@ -53,6 +54,7 @@ import {
   HatenaIcon,
   InstagramShareButton,
   InstagramIcon,
+  CopyIcon,
 } from '../src';
 
 import './Demo.css';
@@ -322,6 +324,16 @@ class Demo extends Component {
           <div>
             <HatenaShareCount url={shareUrl} className="Demo__some-network__share-count" />
           </div>
+        </div>
+
+        <div className="Demo__some-network">
+          <CopyShareButton
+            url={shareUrl}
+            className="Demo__some-network__share-button"
+            onCopySuccess={() => console.log('Copied!')}
+          >
+            <CopyIcon size={32} round />
+          </CopyShareButton>
         </div>
       </div>
     );
