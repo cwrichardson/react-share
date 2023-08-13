@@ -10,8 +10,6 @@ export { default as FacebookShareCount } from './FacebookShareCount';
 export { default as HatenaIcon } from './HatenaIcon';
 export { default as HatenaShareButton } from './HatenaShareButton';
 export { default as HatenaShareCount } from './HatenaShareCount';
-export { default as InstagramIcon } from './InstagramIcon';
-export { default as InstagramShareButton } from './InstagramShareButton';
 export { default as InstapaperIcon } from './InstapaperIcon';
 export { default as InstapaperShareButton } from './InstapaperShareButton';
 export { default as LineIcon } from './LineIcon';
